@@ -1,0 +1,23 @@
+﻿Build started 10/3/2014 1:24:30 AM.
+     1>Project "D:\Masters\Fall 2014\Visualization\sample_skeleton_proj_VS2012\Skeleton\Skeleton.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source3.cpp
+         Source3.cpp
+     1>d:\masters\fall 2014\visualization\sample_skeleton_proj_vs2012\skeleton\source3.cpp(316): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\masters\fall 2014\visualization\sample_skeleton_proj_vs2012\skeleton\source3.cpp(1542): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>d:\masters\fall 2014\visualization\sample_skeleton_proj_vs2012\skeleton\source3.cpp(1543): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>d:\masters\fall 2014\visualization\sample_skeleton_proj_vs2012\skeleton\source3.cpp(1576): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>d:\masters\fall 2014\visualization\sample_skeleton_proj_vs2012\skeleton\source3.cpp(1862): warning C4101: 'jitter' : unreferenced local variable
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Masters\Fall 2014\Visualization\sample_skeleton_proj_VS2012\Debug\Skeleton.exe" /INCREMENTAL /NOLOGO /LIBPATH:./GL/lib opengl32.lib glut32.lib glu32.lib glui32.2008.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Masters\Fall 2014\Visualization\sample_skeleton_proj_VS2012\Debug\Skeleton.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Masters\Fall 2014\Visualization\sample_skeleton_proj_VS2012\Debug\Skeleton.lib" /MACHINE:X86 Debug\Geometry.obj
+         Debug\icVector.obj
+         Debug\ply.obj
+         Debug\Source3.obj
+     1>libcpmtd.lib(stdthrow.obj) : error LNK2019: unresolved external symbol __CrtDbgReportW referenced in function "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(611,5): error MSB6006: "link.exe" exited with code 1120.
+     1>D:\Masters\Fall 2014\Visualization\sample_skeleton_proj_VS2012\Debug\Skeleton.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "D:\Masters\Fall 2014\Visualization\sample_skeleton_proj_VS2012\Skeleton\Skeleton.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:23.03

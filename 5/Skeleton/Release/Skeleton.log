@@ -1,0 +1,44 @@
+﻿Build started 07-11-2017 01:25:06 AM.
+     1>Project "D:\UH\Curriculum\Sem1\Visualization\Assignment_6_Priscilla_Fall2017_Visualisation\sample_skeleton_proj_VS2012\Skeleton\Skeleton.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt sample.cpp
+         sample.cpp
+     1>sample.cpp(390): warning C4101: 'str' : unreferenced local variable
+     1>sample.cpp(578): warning C4101: 'surface_group' : unreferenced local variable
+     1>sample.cpp(578): warning C4101: 'group' : unreferenced local variable
+     1>sample.cpp(578): warning C4101: 'colormap_group' : unreferenced local variable
+     1>sample.cpp(578): warning C4101: 'volume_group' : unreferenced local variable
+     1>sample.cpp(1053): warning C4005: 'X' : macro redefinition
+                 sample.cpp(199) : see previous definition of 'X'
+     1>sample.cpp(1054): warning C4005: 'Y' : macro redefinition
+                 sample.cpp(200) : see previous definition of 'Y'
+     1>sample.cpp(1055): warning C4005: 'Z' : macro redefinition
+                 sample.cpp(201) : see previous definition of 'Z'
+     1>sample.cpp(1447): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>sample.cpp(1448): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>sample.cpp(1481): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>sample.cpp(1503): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>sample.cpp(1504): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>sample.cpp(1505): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>sample.cpp(1694): warning C4101: 'vx' : unreferenced local variable
+     1>sample.cpp(1694): warning C4101: 'vz' : unreferenced local variable
+     1>sample.cpp(1694): warning C4101: 'vy' : unreferenced local variable
+     1>sample.cpp(1718): warning C4101: 'vx' : unreferenced local variable
+     1>sample.cpp(1718): warning C4101: 'vz' : unreferenced local variable
+     1>sample.cpp(1718): warning C4101: 'vy' : unreferenced local variable
+     1>sample.cpp(1756): warning C4305: '=' : truncation from 'double' to 'float'
+     1>sample.cpp(1761): warning C4305: '=' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\UH\Curriculum\Sem1\Visualization\Assignment_6_Priscilla_Fall2017_Visualisation\sample_skeleton_proj_VS2012\Release\Skeleton.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:./GL/lib opengl32.lib glut32.lib glu32.lib glui32.2008.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\UH\Curriculum\Sem1\Visualization\Assignment_6_Priscilla_Fall2017_Visualisation\sample_skeleton_proj_VS2012\Release\Skeleton.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\UH\Curriculum\Sem1\Visualization\Assignment_6_Priscilla_Fall2017_Visualisation\sample_skeleton_proj_VS2012\Release\Skeleton.lib" /MACHINE:X86 /SAFESEH:NO Release\Geometry.obj
+         Release\icVector.obj
+         Release\ply.obj
+         Release\sample.obj
+         Generating code
+         Finished generating code
+     1>LIBCD.lib(strdup.obj) : warning LNK4099: PDB 'libcd.pdb' was not found with 'LIBCD.lib(strdup.obj)' or at 'D:\UH\Curriculum\Sem1\Visualization\Assignment_6_Priscilla_Fall2017_Visualisation\sample_skeleton_proj_VS2012\Release\libcd.pdb'; linking object as if no debug info
+         Skeleton.vcxproj -> D:\UH\Curriculum\Sem1\Visualization\Assignment_6_Priscilla_Fall2017_Visualisation\sample_skeleton_proj_VS2012\Release\Skeleton.exe
+     1>Done Building Project "D:\UH\Curriculum\Sem1\Visualization\Assignment_6_Priscilla_Fall2017_Visualisation\sample_skeleton_proj_VS2012\Skeleton\Skeleton.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:40.57

@@ -1,0 +1,30 @@
+﻿Build started 23-10-2017 10:09:12 PM.
+     1>Project "D:\UH\Curriculum\Sem1\Visualization\Assignment_5_Priscilla_Fall2017\sample_skeleton_proj_VS2012\Skeleton\Skeleton.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt sample.cpp
+         sample.cpp
+     1>sample.cpp(515): warning C4101: 'scale' : unreferenced local variable
+     1>sample.cpp(513): warning C4101: 'group' : unreferenced local variable
+     1>sample.cpp(514): warning C4101: 'rot' : unreferenced local variable
+     1>sample.cpp(515): warning C4101: 'trans' : unreferenced local variable
+     1>sample.cpp(1373): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>sample.cpp(1374): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>sample.cpp(1407): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>sample.cpp(1572): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>sample.cpp(1578): warning C4305: '=' : truncation from 'double' to 'float'
+     1>sample.cpp(1619): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>sample.cpp(1806): warning C4101: 'jitter' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\UH\Curriculum\Sem1\Visualization\Assignment_5_Priscilla_Fall2017\sample_skeleton_proj_VS2012\Release\Skeleton.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:./GL/lib opengl32.lib glut32.lib glu32.lib glui32.2008.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\UH\Curriculum\Sem1\Visualization\Assignment_5_Priscilla_Fall2017\sample_skeleton_proj_VS2012\Release\Skeleton.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\UH\Curriculum\Sem1\Visualization\Assignment_5_Priscilla_Fall2017\sample_skeleton_proj_VS2012\Release\Skeleton.lib" /MACHINE:X86 /SAFESEH:NO Release\Geometry.obj
+         Release\icVector.obj
+         Release\ply.obj
+         Release\sample.obj
+         Generating code
+         Finished generating code
+     1>LIBCD.lib(strdup.obj) : warning LNK4099: PDB 'libcd.pdb' was not found with 'LIBCD.lib(strdup.obj)' or at 'D:\UH\Curriculum\Sem1\Visualization\Assignment_5_Priscilla_Fall2017\sample_skeleton_proj_VS2012\Release\libcd.pdb'; linking object as if no debug info
+         Skeleton.vcxproj -> D:\UH\Curriculum\Sem1\Visualization\Assignment_5_Priscilla_Fall2017\sample_skeleton_proj_VS2012\Release\Skeleton.exe
+     1>Done Building Project "D:\UH\Curriculum\Sem1\Visualization\Assignment_5_Priscilla_Fall2017\sample_skeleton_proj_VS2012\Skeleton\Skeleton.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.68

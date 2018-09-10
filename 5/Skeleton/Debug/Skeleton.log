@@ -1,0 +1,32 @@
+﻿Build started 2016-09-30 13:37:50.
+     1>Project "C:\Users\Guruthwam\Downloads\visualization_assigns\assign3\sample_skeleton_proj_VS2012_8\sample_skeleton_proj_VS2012\Skeleton\Skeleton.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt sample.cpp
+         sample.cpp
+     1>c:\users\guruthwam\downloads\visualization_assigns\assign3\sample_skeleton_proj_vs2012_8\sample_skeleton_proj_vs2012\skeleton\sample.cpp(233): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\guruthwam\downloads\visualization_assigns\assign3\sample_skeleton_proj_vs2012_8\sample_skeleton_proj_vs2012\skeleton\sample.cpp(1840): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\guruthwam\downloads\visualization_assigns\assign3\sample_skeleton_proj_vs2012_8\sample_skeleton_proj_vs2012\skeleton\sample.cpp(1841): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\guruthwam\downloads\visualization_assigns\assign3\sample_skeleton_proj_vs2012_8\sample_skeleton_proj_vs2012\skeleton\sample.cpp(1874): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\guruthwam\downloads\visualization_assigns\assign3\sample_skeleton_proj_vs2012_8\sample_skeleton_proj_vs2012\skeleton\sample.cpp(2082): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\guruthwam\downloads\visualization_assigns\assign3\sample_skeleton_proj_vs2012_8\sample_skeleton_proj_vs2012\skeleton\sample.cpp(2101): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\guruthwam\downloads\visualization_assigns\assign3\sample_skeleton_proj_vs2012_8\sample_skeleton_proj_vs2012\skeleton\sample.cpp(2127): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\guruthwam\downloads\visualization_assigns\assign3\sample_skeleton_proj_vs2012_8\sample_skeleton_proj_vs2012\skeleton\sample.cpp(2274): warning C4101: 'jitter' : unreferenced local variable
+     1>c:\users\guruthwam\downloads\visualization_assigns\assign3\sample_skeleton_proj_vs2012_8\sample_skeleton_proj_vs2012\skeleton\sample.cpp(2291): warning C4101: 'w' : unreferenced local variable
+     1>c:\users\guruthwam\downloads\visualization_assigns\assign3\sample_skeleton_proj_vs2012_8\sample_skeleton_proj_vs2012\skeleton\sample.cpp(2291): warning C4101: 'h' : unreferenced local variable
+     1>c:\users\guruthwam\downloads\visualization_assigns\assign3\sample_skeleton_proj_vs2012_8\sample_skeleton_proj_vs2012\skeleton\sample.cpp(2388): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\guruthwam\downloads\visualization_assigns\assign3\sample_skeleton_proj_vs2012_8\sample_skeleton_proj_vs2012\skeleton\sample.cpp(2402): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\guruthwam\downloads\visualization_assigns\assign3\sample_skeleton_proj_vs2012_8\sample_skeleton_proj_vs2012\skeleton\sample.cpp(2488): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\guruthwam\downloads\visualization_assigns\assign3\sample_skeleton_proj_vs2012_8\sample_skeleton_proj_vs2012\skeleton\sample.cpp(2489): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\guruthwam\downloads\visualization_assigns\assign3\sample_skeleton_proj_vs2012_8\sample_skeleton_proj_vs2012\skeleton\sample.cpp(2490): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\guruthwam\downloads\visualization_assigns\assign3\sample_skeleton_proj_vs2012_8\sample_skeleton_proj_vs2012\skeleton\sample.cpp(2217): warning C4715: 'Color_Maps' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Guruthwam\Downloads\visualization_assigns\assign3\sample_skeleton_proj_VS2012_8\sample_skeleton_proj_VS2012\Debug\Skeleton.exe" /INCREMENTAL /NOLOGO /LIBPATH:./GL/lib opengl32.lib glut32.lib glu32.lib glui32.2008.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Guruthwam\Downloads\visualization_assigns\assign3\sample_skeleton_proj_VS2012_8\sample_skeleton_proj_VS2012\Debug\Skeleton.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Guruthwam\Downloads\visualization_assigns\assign3\sample_skeleton_proj_VS2012_8\sample_skeleton_proj_VS2012\Debug\Skeleton.lib" /MACHINE:X86 Debug\Geometry.obj
+         Debug\icVector.obj
+         Debug\ply.obj
+         Debug\sample.obj
+         Skeleton.vcxproj -> C:\Users\Guruthwam\Downloads\visualization_assigns\assign3\sample_skeleton_proj_VS2012_8\sample_skeleton_proj_VS2012\Debug\Skeleton.exe
+     1>Done Building Project "C:\Users\Guruthwam\Downloads\visualization_assigns\assign3\sample_skeleton_proj_VS2012_8\sample_skeleton_proj_VS2012\Skeleton\Skeleton.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.80
